@@ -15,6 +15,38 @@
 
 function es24(n) {
   // TODO: scrivi qui la tua soluzione
+  var positivo = 0;
+  var pari = 0;
+  var assoluto =0 ;
+  var radice=0;
+  if (n>0) {
+    var positivo = true;
+  }
+  else {
+    var positivo =false;
+    if (n%2==0) {
+      var pari = true;
+    }
+    else {
+      var pari = false;
+    }
+    if (positivo==false){
+     var radice= NaN 
+    }
+    } 
+  
+  
+  if (n%2==0) {
+    var pari = true;
+  }
+  else {
+    var pari = false
+  }
+  var assoluto =Math.abs(n)
+  if (positivo==true) {
+    var radice = Math.sqrt(n)
+  } 
+return{positivo,pari,assoluto,radice}
 }
 
 // --- NON MODIFICARE SOTTO ---
