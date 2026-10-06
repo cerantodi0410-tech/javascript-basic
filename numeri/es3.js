@@ -13,11 +13,13 @@
 function es3_1() {
   // 1. Restituisci Infinity (usa una divisione)
   // TODO: scrivi qui la tua soluzione
+  return NaN (1/0)
 }
 
 function es3_2() {
   // 2. Restituisci il risultato di isFinite(Infinity)
   // TODO: scrivi qui la tua soluzione
+  isFinite(1/0)
 }
 
 function es3_3(valore) {
