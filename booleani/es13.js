@@ -13,6 +13,16 @@
 
 function es13(coupon, totale, fedele) {
   // TODO: scrivi qui la tua soluzione
+  
+  if (totale>=100 && fedele===true) {
+    return true
+  }
+  else{
+    if (coupon===true) {
+      return true
+    }
+    return false
+  }
 }
 
 // --- NON MODIFICARE SOTTO ---

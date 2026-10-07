@@ -13,6 +13,15 @@
 
 function es12(ruolo, isLogged) {
   // TODO: scrivi qui la tua soluzione
+  if (ruolo ==="admin"||ruolo==="editor") {
+    return true
+  } else {
+    if (isLogged===true) {
+      return true
+      
+    }
+  }
+  return false
 }
 
 // --- NON MODIFICARE SOTTO ---
