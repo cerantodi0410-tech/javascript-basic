@@ -14,6 +14,7 @@
 function es14_1(arr) {
   // 1. Trova il primo numero maggiore di 10
   // TODO: scrivi qui la tua soluzione
+  
 }
 
 function es14_2(arr) {
